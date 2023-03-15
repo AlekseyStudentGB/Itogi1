@@ -10,3 +10,16 @@
     }
     return lenNewMass;
 }
+
+void NewMass(string[] mass, string[] newMass)
+{
+    for (int i = 0; i < mass.Length; i++)
+    {
+        if (mass[i].Length <= 3)
+        {
+            newMass[i] = mass [i];
+        }
+    }
+}
+
+
