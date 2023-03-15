@@ -30,4 +30,8 @@ void PrintMass (string[] mass)
         else Console.Write(mass[i]);
     }
 }
-
+Console.WriteLine("Введите текст который будет преобразован в массив");
+string[] mass =  Console.ReadLine().Split(" ");
+string[] newMass = new string [GetLenthNewMass(mass)];
+NewMass( mass, newMass);
+PrintMass (newMass);
