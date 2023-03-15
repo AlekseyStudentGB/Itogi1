@@ -22,4 +22,12 @@ void NewMass(string[] mass, string[] newMass)
     }
 }
 
+void PrintMass (string[] mass)
+{
+    for (int i = 0; i < mass.Length; i++)
+    {
+        if (i < mass.Length - 1)Console.Write($"{mass[i]}, ");
+        else Console.Write(mass[i]);
+    }
+}
 
